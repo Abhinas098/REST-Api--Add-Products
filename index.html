@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+</head>
+<body>
+    <form onsubmit="saveToCrud(event)">
+        <label>Selling Price:</label>
+        <input type="number" name="price" id='Add'>
+        <label>Product Name:</label>
+        <input type="text" name="product" id='pro'>
+        <button> Add Product </button>
+    </form>
+    <h1>Added Products</h1>
+    <ul id="list">
+    </ul>
+    <div id="l"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
